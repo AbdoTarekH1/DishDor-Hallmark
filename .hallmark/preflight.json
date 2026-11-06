@@ -1,0 +1,29 @@
+{
+  "scanned": "2026-11-05",
+  "findings": {
+    "fonts": "IBM Plex Sans Arabic 400/500/600 as the Arabic body and display face (assets/css/style.css:42, loaded in index.html); Fraunces 400 italic as the single English accent (assets/css/style.css:43), preserved as the outlier role only",
+    "palette": "The owner's hex brand palette is declared once at :root (assets/css/style.css:9-30): paper #F7F2E8 / #EFE8D8, sage #B2C7A0 with four steps, teal #0F3D3E with four steps, orange #E98E47 / #D57C2E, ink #22302A / #47564D, rule #E3D9C6; converted to OKLCH tokens in assets/css/tokens.css",
+    "motion": "Scroll reveal via data-reveal plus an injected class (assets/js/main.js), a duplicated marquee ticker, and hover transitions; every effect has a prefers-reduced-motion fallback and content is visible without scripting (assets/css/style.css:611-613)",
+    "spacing": "Radius scale --r-sm to --r-pill (assets/css/style.css:32-36) and a 1180px container with a 74px header (assets/css/style.css:45-46); replaced by shared token steps, the container capped at 1440 in the new build",
+    "framework": "None: static index.html plus assets/css/style.css and vanilla assets/js/main.js, no build step; package.json only exposes media, logo and serve scripts (package.json:6-10)",
+    "product": "No dev server or app to capture; the product is the static page itself. Imagery captured from the owner's real files in assets/img, never generated"
+  },
+  "preserve": [
+    "the DishDor wordmark and logo binaries",
+    "the sage / teal / paper / orange palette",
+    "IBM Plex Sans Arabic for Arabic, Fraunces italic as the English accent",
+    "the Arabic RTL voice and the owner's real copy",
+    "WhatsApp +201550057738 as the only ordering path",
+    "the three delivery areas and the 20K+ follower proof",
+    "Instagram and Facebook links",
+    "the owner's real food photography and menu sheet",
+    "the media pipeline and its generated catalog"
+  ],
+  "introduce": [
+    "a Hallmark shape (Table Service) and the custom direction",
+    "tokens.css and base.css as the named token layer",
+    "the hero table, the menu viewer and the gallery lightbox",
+    "the Hallmark stamp, gates and sweep",
+    "the mobile drawer nav and the active-section marker"
+  ]
+}

@@ -1,0 +1,40 @@
+[
+ {
+  "shape": "Table Service",
+  "theme": "custom",
+  "axes": "light/grotesk-sans/warm",
+  "hero": "a headline over eight columns beside one sentence and one action, then a deep-teal table holding the real dish, the menu sheet as the signature and the order card",
+  "nav": "paper bar, wordmark, four destinations and one filled WhatsApp action at the far end, a rule only where it meets the hero",
+  "footer": "a statement mast on deep teal, the English tagline large over one row of real links",
+  "imagery": "the owner's real food photography and menu sheet",
+  "photos": [
+   "product1",
+   "product2",
+   "product3",
+   "product4",
+   "product5",
+   "menu",
+   "ad-brochure",
+   "dishdor-logo"
+  ],
+  "entry": "index.html",
+  "fingerprint": "Left-margin|Asymmetric spans|Hairline rule|Solid|Tightly cropped to the grid|Fade-up stagger",
+  "sections": [
+   "Hero (the table)",
+   "Ticker",
+   "Menu band (the sheet)",
+   "Kitchen rows",
+   "Gallery mosaic",
+   "Delivery band",
+   "Social close",
+   "Statement footer"
+  ],
+  "signature": "the menu sheet resting on the deep-teal table",
+  "waived": [
+   "65"
+  ],
+  "prompt": "Recreate the DishDor marketing site in DishDor-Hallmark with Hallmark, preserving the brand identity",
+  "date": "2026-11-05",
+  "mode": "build"
+ }
+]

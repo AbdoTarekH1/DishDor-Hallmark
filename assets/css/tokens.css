@@ -1,0 +1,92 @@
+:root {
+  /* Hallmark · brand tokens, DishDor identity (OKLCH conversion of the owner's palette) */
+  --color-paper: oklch(96.2% 0.014 84.6);
+  --color-paper-2: oklch(93.2% 0.023 87.2);
+  --color-paper-3: oklch(95.2% 0.018 120.7);
+  --color-ink: oklch(29.4% 0.022 166.7);
+  --color-ink-2: oklch(43.7% 0.024 158.9);
+  --color-muted: oklch(48.7% 0.024 156.2);
+  --color-rule: oklch(88.8% 0.028 83.5);
+  --color-teal: oklch(33% 0.048 197.2);
+  --color-teal-deep: oklch(27.7% 0.040 197.7);
+  --color-teal-soft: oklch(39.5% 0.052 197.1);
+  --color-sage: oklch(80.3% 0.058 130.7);
+  --color-sage-deep: oklch(75% 0.072 132.3);
+  --color-accent: oklch(72.9% 0.140 56.1);
+  --color-accent-deep: oklch(67.1% 0.141 57.3);
+  --color-accent-ink: oklch(27.7% 0.040 197.7);
+  --color-on-dark: oklch(96.2% 0.014 84.6);
+  --color-on-dark-muted: oklch(80.3% 0.058 130.7);
+  --color-focus: oklch(27.7% 0.040 197.7);
+  --color-focus-on-dark: oklch(96.2% 0.014 84.6);
+  --color-overlay: oklch(20% 0.02 197 / 0.82);
+  --color-error: oklch(52% 0.19 27);
+  --color-success: oklch(50% 0.12 150);
+
+  /* Type */
+  --font-display: "IBM Plex Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "IBM Plex Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-outlier: "Fraunces", ui-serif, Georgia, serif;
+
+  --tracking-display: 0;
+
+  /* Scale: a custom editorial scale, hero and section heads close in size on purpose */
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5625rem;
+  --text-2xl: 1.953rem;
+  --text-3xl: 2.441rem;
+  --text-display-s: clamp(2.125rem, 2.9vw + 1rem, 3.5rem);
+  --text-display: clamp(2.625rem, 4.4vw + 1rem, 5.25rem);
+  --text-section: clamp(1.875rem, 2.4vw + 1rem, 3.125rem);
+  --text-title: clamp(1.3125rem, 0.5vw + 1.125rem, 1.625rem);
+  --text-lead: clamp(1.125rem, 0.4vw + 1rem, 1.375rem);
+
+  /* Space */
+  --space-3xs: 2px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 144px;
+
+  /* Rhythm */
+  --container: 1440px;
+  --gutter: 64px;
+  --gap-columns: 32px;
+  --section-gap-s: 120px;
+  --section-gap: 144px;
+  --section-gap-l: 176px;
+
+  /* Shape */
+  --radius-card: 3px;
+  --radius-media: 3px;
+  --radius-pill: 999px;
+  --rule-hair: 1px;
+  --shadow-sheet: 0 40px 90px -48px oklch(12% 0.02 197 / 0.75), 0 2px 0 oklch(12% 0.02 197 / 0.18);
+  --shadow-lift: 0 18px 44px -30px oklch(12% 0.02 197 / 0.5);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  /* Layers */
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-sticky-nav: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}
